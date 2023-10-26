@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-image: url(Light\ Pink\ Tulips\ Art\ Print\ By\ Johanna\ Hurmerinta\ \ 09B.jpeg);
+   background-color: black;
+   background-repeat: no-repeat;
+   color: var(--text-color);
+   
+}
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    background: var(--bg-color);
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px ;
+    padding-bottom: 10px;
+    transition: all .50s ease;
+    
+    
+}
+.logo {
+    color: darkgreen;
+    
+}
+.logo span{
+    color: white;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color:darkgreen;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 22px;
+    transition: all .50s ease;
+    font-weight: bold;
+}
+section {
+    padding:  14% 70px;
+    
+    
+}
+section .home-text{
+
+    float: right;
+    font-size: xx-large;
+    padding-right: 100px;
+    
+}
+
+
+.home-text h2{
+    
+        color: white;
+        
+}
+.home-text h1 {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.home-text h1 span{
+    color: palevioletred;
+    
+}
+.home-text h2 span{
+    color: darkgreen;
+
+    
+}
+.home-text h3{
+        color: white;
+        margin-top: 10px;
+        
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    align-items: center;
+    gap: 2.5rem;
+    text-align: center;
+    margin-top: 500px;
+    
+    
+    
+  
+}
+
+.banner h1{
+    color: white;
+}
+.banner-img{
+    overflow: hidden;
+}
+.banner-img img{
+    width:100%;
+    display: block;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+
+.about .about-title{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    color: darkgreen;
+}
+.about p{
+    color: white;
+    font-size: large;
+    padding-right: 100px;
+    padding-top: 80px;
+    line-height: 30px;
+}
+.about .image{
+    
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        float: left;
+        margin-top: 10px;
+        margin-right: 100px;
+        
+    
+}
+.mission .mission-title{
+    color: palevioletred;
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 150px;
+}
+.mission img{
+    height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        float: right;
+        margin-top: 10px;
+        margin-right: 100px;
+
+}
+.mission p{
+    
+    color: white;
+    font-size: large;
+    padding-right: 100px;
+    padding-top: 80px;
+    line-height : 30px;
+    width:70% ;
+}
+
+.unique img{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    float: left;
+    margin-top: 10px;
+    margin-right: 100px;
+
+
+}
+
+.unique .unique-title{
+    color: darkmagenta;
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 10px;
+}
+.occasions-title{
+    color: darkgreen;
+    text-align: center;
+}
+.wrapper {
+    margin-top: 55px;
+    padding: 0px;
+}
+div.occasion-list {
+    float: left;
+    width: 30%;
+    margin: 0 10px;
+    padding: 20px 15px;
+  }
+.occasion-list li {
+    margin-bottom: 30px;
+  }
+  .occasion-list li a {
+    color: white;
+  }
+.bx {
+   color: #15c715;
+    margin-right: 3px;
+  }
+  
+.contact-form{
+    color: black;
+}
+.welcome {
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+    background-image: url(yellow.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+    background-image: url(The\ single\ Red\ Tulip\ with\ Black\ Background_.jpeg);
+}
+ 
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+    
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ 
+/* Contact info styles */
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: darkgreen;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+ 
